@@ -492,7 +492,7 @@ function App() {
                 "bankerDragonBonus" ? (
                 <>
                   <Pay
-                    label="Win by 9"
+                    label="Win by 9 points"
                     value={
                       bet.payTable
                         .win9
@@ -500,7 +500,7 @@ function App() {
                   />
 
                   <Pay
-                    label="Win by 8"
+                    label="Win by 8 points"
                     value={
                       bet.payTable
                         .win8
@@ -508,7 +508,7 @@ function App() {
                   />
 
                   <Pay
-                    label="Win by 7"
+                    label="Win by 7 points"
                     value={
                       bet.payTable
                         .win7
@@ -516,7 +516,7 @@ function App() {
                   />
 
                   <Pay
-                    label="Win by 6"
+                    label="Win by 6 points"
                     value={
                       bet.payTable
                         .win6
@@ -524,7 +524,7 @@ function App() {
                   />
 
                   <Pay
-                    label="Win by 5"
+                    label="Win by 5 points"
                     value={
                       bet.payTable
                         .win5
@@ -532,7 +532,7 @@ function App() {
                   />
 
                   <Pay
-                    label="Win by 4"
+                    label="Win by 4 points"
                     value={
                       bet.payTable
                         .win4
@@ -1028,22 +1028,22 @@ function formatOutcome(
     string
   > = {
     win9:
-      "Win by 9",
+      "Win by 9 points",
 
     win8:
-      "Win by 8",
+      "Win by 8 points",
 
     win7:
-      "Win by 7",
+      "Win by 7 points",
 
     win6:
-      "Win by 6",
+      "Win by 6 points",
 
     win5:
-      "Win by 5",
+      "Win by 5 points",
 
     win4:
-      "Win by 4",
+      "Win by 4 points",
 
     naturalWin:
       "Natural winner",
